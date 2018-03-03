@@ -1,0 +1,29 @@
+﻿<Window x:Class="StyleDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StyleDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel HorizontalAlignment="Left">
+        <StackPanel x:Name="addUserForm" Margin="10">
+            <Button Background="Tomato" Padding="5,5,5,5" Foreground="White" FontWeight="SemiBold" BorderBrush="Red">
+                Back
+            </Button>
+        </StackPanel>
+        <StackPanel x:Name="editUserForm" Margin="10">
+
+            <Button Background="Tomato" Padding="5,5,5,5" Foreground="White" FontWeight="SemiBold" BorderBrush="Red">
+                Back
+            </Button>
+        </StackPanel>
+        <StackPanel x:Name="viewUserForm" Margin="10">
+            
+            <Button Background="Tomato" Padding="5,5,5,5" Foreground="White" FontWeight="SemiBold" BorderBrush="Red">
+                Back
+            </Button>
+        </StackPanel>
+        
+    </StackPanel>
+</Window>
